@@ -81,7 +81,7 @@ public class Convert {
 		spark.sql("SELECT * FROM test WHERE price<=10 ORDER BY points DESC").show(5);
 
 		//display  top 5 best wines below 30 USD from Chile
-		spark.sql("SELECT * FROM test WHERE price<=30 AND country='Chile'").show(5);
+		spark.sql("SELECT * FROM test WHERE price<=30 AND country='Chile' ORDER BY points DESC").show(5);
 			
 		Dataset<Row> versus = cleanSet.groupBy("price").agg(mean("points"));
 		
