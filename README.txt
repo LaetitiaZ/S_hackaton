@@ -36,13 +36,13 @@ only showing top 20 rows
 
 //display of 5 best wines under 30$ from Chile
 +-----+-------+--------------------+--------------------+------+-----+----------------+--------+--------+-----------------+---------------------+--------------------+------------------+-----------------+
-|   id|country|         description|         designation|points|price|        province|region_1|region_2|      taster_name|taster_twitter_handle|               title|           variety|       winery;;;;|
+|   id|country|         description|         designation|points|price|        province|region_1|region_2|      taster_name|taster_twitter_handle|               title|           variety|           winery|
 +-----+-------+--------------------+--------------------+------+-----+----------------+--------+--------+-----------------+---------------------+--------------------+------------------+-----------------+
-| 1366|  Chile|Lavender and lico...|             Reserve|    87|  9.0|    Maipo Valley|    null|    null|Michael Schachner|          @wineschach|Santa Alicia 2006...|Cabernet Sauvignon|  Santa Alicia;;;|
-| 2854|  Chile|Earthy plum and b...|Elegido Gran Reserva|    88| 18.0|Colchagua Valley|    null|    null|Michael Schachner|          @wineschach|Valle Hermoso 201...|            Malbec|Valle Hermoso;;;;|
-| 3747|  Chile|Cherry and raspbe...|                Alba|    86|  8.0|  Central Valley|    null|    null|Michael Schachner|          @wineschach|Santa Luz 2014 Al...|Cabernet Sauvignon|    Santa Luz;;;;|
-| 6558|  Chile|A pink-meets-tan ...|             Reserva|    85| 12.0|    Maule Valley|    null|    null|Michael Schachner|          @wineschach|Sierra Batuco 201...|      Pinot Grigio|Sierra Batuco;;;;|
-|14436|  Chile|Simple aromas of ...|      Classic Series|    86| 13.0| Aconcagua Costa|    null|    null|Michael Schachner|          @wineschach|Montes 2015 Class...|   Sauvignon Blanc|       Montes;;;;|
+| 1366|  Chile|Lavender and lico...|             Reserve|    87|  9.0|    Maipo Valley|    null|    null|Michael Schachner|          @wineschach|Santa Alicia 2006...|Cabernet Sauvignon|     Santa Alicia|
+| 2854|  Chile|Earthy plum and b...|Elegido Gran Reserva|    88| 18.0|Colchagua Valley|    null|    null|Michael Schachner|          @wineschach|Valle Hermoso 201...|            Malbec|    Valle Hermoso|
+| 3747|  Chile|Cherry and raspbe...|                Alba|    86|  8.0|  Central Valley|    null|    null|Michael Schachner|          @wineschach|Santa Luz 2014 Al...|Cabernet Sauvignon|        Santa Luz|
+| 6558|  Chile|A pink-meets-tan ...|             Reserva|    85| 12.0|    Maule Valley|    null|    null|Michael Schachner|          @wineschach|Sierra Batuco 201...|      Pinot Grigio|    Sierra Batuco|
+|14436|  Chile|Simple aromas of ...|      Classic Series|    86| 13.0| Aconcagua Costa|    null|    null|Michael Schachner|          @wineschach|Montes 2015 Class...|   Sauvignon Blanc|           Montes|
 +-----+-------+--------------------+--------------------+------+-----+----------------+--------+--------+-----------------+---------------------+--------------------+------------------+-----------------+
 only showing top 5 rows
 
