@@ -82,6 +82,11 @@ public class Convert {
 
 		//display  top 5 best wines below 30 USD from Chile
 		spark.sql("SELECT * FROM test WHERE price<=30 AND country='Chile'").show(5);
+			
+		Dataset<Row> versus = cleanSet.groupBy("price").agg(mean("points"));
+		
+		//display visualization price versus points : average price for a bottle depending on the rate
+		versus.show();
 		}
 		
 		catch(Exception e)
@@ -90,7 +95,7 @@ public class Convert {
 		}
 		
 		
-		}
+	}
 			
 		
 	
