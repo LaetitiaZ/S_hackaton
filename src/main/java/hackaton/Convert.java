@@ -1,8 +1,5 @@
 package hackaton;
 
-
-
-
 import org.apache.spark.sql.Column;
 import org.apache.spark.sql.Dataset;
 import org.apache.spark.sql.Row;
@@ -13,11 +10,9 @@ import static org.apache.spark.sql.functions.mean;
 import static org.apache.spark.sql.functions.stddev_pop;
 
 
-
 public class Convert {
 
 	
-
 	public static void main(String[] args) 
 	{
 		
@@ -50,7 +45,8 @@ public class Convert {
 		
 		//define a dataset loaded from the ORC file
 		Dataset<Row> orcSet = spark.read().format("orc")  
-				.option("header","false")				//Delete the header
+				//Delete the header
+				.option("header","false")				
 				.load("/tmp/orc/wineDataSet.orc");
 		
 		
@@ -95,8 +91,6 @@ public class Convert {
 		}
 		
 		
-	}
-			
-		
+	}		
 	
 }
