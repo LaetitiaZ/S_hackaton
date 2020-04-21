@@ -1,4 +1,6 @@
-/* The program is a maven project which uses JAVA language and was written on Eclipse IDE
+/* 
+
+The program is a maven project which uses JAVA language and was written on Eclipse IDE
 
 Spark Apache library is used for datasets. 
 
